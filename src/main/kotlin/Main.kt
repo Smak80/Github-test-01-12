@@ -10,6 +10,11 @@ fun main(){
     print("Start")
     foo()
     myFunction()
+    bye()
+}
+
+fun bye() {
+    println("Пока-пока!")
 }
 
 fun foo(){
