@@ -5,6 +5,12 @@ fun myFunction(){
 }
 
 fun main(){
-    println("Start")
+    foo()
+    print("Start")
+    foo()
     myFunction()
+}
+
+fun foo(){
+    print("Foo")
 }
